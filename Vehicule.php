@@ -15,18 +15,18 @@
         public function Demarre() {
             if(!$this->go) {
                 $this->go = true;
-                echo "vroum</br>";
+                echo "vroum";
             }else{
-                echo "deja demarré</br>";
+                echo "deja demarré";
             }
         }
 
         public function Stop() {
             if($this->go) {
                 $this->go = false;
-                echo "a l'arret</br>";
+                echo "a l'arret";
             }else{
-                echo "deja a l'arret</br>";
+                echo "deja a l'arret";
             }
         }
 
